@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/index.css';
 
+import './css/index.css';
+import './css/Navbar.css'
+
+import Navbar from './html/Navbar';
 import App from './html/App';
-import Sidebar from './html/Sidebar';
-import Assembleia from './html/Assembleia'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.createRoot(document.querySelector('#root')).render(
   <React.StrictMode>
-    <Sidebar></Sidebar>
-    <Assembleia></Assembleia>
+  <Navbar></Navbar>
+  <App></App>
   </React.StrictMode>);
 
 // If you want to start measuring performance in your app, pass a function

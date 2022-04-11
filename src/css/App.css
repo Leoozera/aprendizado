@@ -1,0 +1,71 @@
+/*
+Amarelo: FEE250
+Cinza claro: 575759
+Cinza escuro: 434345
+*/
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.otf') format('OpenType');
+}
+
+.App {
+    font-family: 'Gilroy';
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #575759;
+    width: 550px;
+    height: 450px;
+    box-shadow: 20px -10px #FEE250;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.span-user {
+    color: #FEE250;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+    margin-left: 30px;
+}
+
+.botoes {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+button {
+    font-family: 'Gilroy';
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: #434345;
+    box-shadow: 5px -5px #FEE250;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+

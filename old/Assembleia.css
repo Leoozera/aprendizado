@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.otf') format('OpenType');
+}
+
+.Assembleia {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 220px;
+    background-color: #434345;
+}
+
+
+
+h1 {
+    color: #FEE250;
+    font-family: "Gilroy", "sans serif";
+    text-align: center;
+}
+
+p {
+    font-weight: 0;
+    color: #ffff;
+    font-family: "Gilroy", "sans serif";
+    text-align: center;
+}
+
+.container-form {
+    width: 100%;
+    display: flex;
+}
+
+.box-form {
+    color: white;
+    background-color: #575759;
+    width: 700px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nome-condominio {
+    border: none;
+    background-color: #434345;
+}
+
+#numero-condominos {
+    border: none;
+    background-color: #434345;
+}
+
+#pautas {
+    width: 500px;
+    height: 400px;
+    background-color: #434345;
+    border: none;
+}
+
+.button-enviar {
+    padding: 15px 32px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #575759;
+    border: 2px solid #FEE250;
+    color: #FEE250;
+    border-radius: 1.2em;
+}
